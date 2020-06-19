@@ -21,6 +21,7 @@ module Monitor.Tracing.Zipkin (
   -- * Publishing traces
   Zipkin,
   new, run, publish, with,
+  zipkinTracer,
 
   -- * Cross-process spans
   -- ** Communication
